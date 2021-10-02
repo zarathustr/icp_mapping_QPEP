@@ -11,6 +11,12 @@ can fit a large variety of robots and application scenarios, without any code
 change or recompilation.
 
 ## Compilation
+
+First, we should compile and install two libraries: 
+1. LibQPEP, https://github.com/zarathustr/LibQPEP
+2. libpointmatcher-QPEP, https://github.com/zarathustr/libpointmatcher_QPEP
+
+For ROS compilation, we assume that the catkin workspace is ```catkin_ws``` and then:
 ```
 cd catkin_ws/src
 git clone https://github.com/zarathustr/icp_mapping_QPEP
