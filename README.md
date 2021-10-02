@@ -11,9 +11,11 @@ can fit a large variety of robots and application scenarios, without any code
 change or recompilation.
 
 ## Compilation
-``cd catkin_ws/src``
-``git clone https://github.com/zarathustr/icp_mapping_QPEP``
-``catkin build``
+```
+cd catkin_ws/src
+git clone https://github.com/zarathustr/icp_mapping_QPEP
+catkin build
+```
 
 ## QPEP Demos
 To run the Point-to-Plane based Iterative Closest Point (ICP) algorithm by QPEP solver, we may run the ```roslaunch``` files from ```ethzasl_icp_mapper/launch/kitti/kitti.launch``` (for KITTI Dataset) and ```ethzasl_icp_mapper/launch/icsens/icsens_outdoor.launch``` (for the I.C.Sens Dataset, https://data.uni-hannover.de/dataset/i-c-sens-visual-inertial-lidar-dataset).
