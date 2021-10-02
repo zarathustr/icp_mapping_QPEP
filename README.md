@@ -27,7 +27,7 @@ KITTI Dataset:
 
 I.C.Sens Dataset:
 
-![alt tag](perspective_diagram2.png)
+![alt tag](icsens.png)
 
 
 
