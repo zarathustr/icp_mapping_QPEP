@@ -15,6 +15,7 @@ change or recompilation.
 First, we should compile and install two libraries: 
 1. LibQPEP, https://github.com/zarathustr/LibQPEP
 2. libpointmatcher-QPEP, https://github.com/zarathustr/libpointmatcher_QPEP
+We recommend the use of ```Clang``` compiler rather than the ```GCC``` compiler because the computational efficiency of the previous one is much better for large-scale mapping problems.
 
 For ROS compilation, we assume that the catkin workspace is ```catkin_ws``` and then:
 ```
