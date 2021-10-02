@@ -4,7 +4,7 @@ The project is based on https://github.com/ethz-asl/ethzasl_icp_mapping
 
 It is mainly there for us to try quick demos and as an example of [libpointmatcher](https://github.com/ethz-asl/libpointmatcher) and its QPEP variant https://github.com/zarathustr/libpointmatcher_QPEP codes
 
-The project has been tested on ROS Indigo (Ubuntu 14.04), Kinetic (Ubuntu 16.04) and Melodic (Ubuntu 18.04). The newst results show that ROS Noetic (Ubuntu 20.04, Mac OS Big Sur 11.5) may not be compatible with the TF transformations.=
+The project has been tested on ROS Indigo (Ubuntu 14.04), Kinetic (Ubuntu 16.04) and Melodic (Ubuntu 18.04). The newst results show that ROS Noetic (Ubuntu 20.04, Mac OS Big Sur 11.5) may not be compatible with the TF transformations.
 
 This [ROS] stack provides a real-time 2D and 3D [ICP]-based SLAM system that
 can fit a large variety of robots and application scenarios, without any code
